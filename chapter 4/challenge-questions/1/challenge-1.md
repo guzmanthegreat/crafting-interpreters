@@ -1,0 +1,1 @@
+Python and Haskell are not lexically regular because indentation carries structural meaning. Their scanners must remember potentially unlimited indentation levels, which requires more than the fixed memory of a finite-state machine. Do NOT interpret this to mean python and haskell can't be scanned, it merely means they require stricter machinery than a normak language requires.
