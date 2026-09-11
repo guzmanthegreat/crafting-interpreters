@@ -1,0 +1,11 @@
+print 1;
+
+/*
+This entire section is ignored.
+
+  /*
+    This is a nested comment.
+  */
+*/
+
+print 2;
