@@ -1,0 +1,12 @@
+{
+  var used = "read";
+  print used;
+}
+
+{
+  var outer = "outer";
+  {
+    var inner = outer;
+    print inner;
+  }
+}
